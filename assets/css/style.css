@@ -33,6 +33,7 @@ text-align: center;
 }
 html{
     background: url(/assets/images/geri-mis-ZaCPb3xIqrg-unsplash.jpg);
+    /* background-image: linear-gradient(to bottom right, blue,lightblue ); */
     background-size: cover;
     background-attachment: fixed;
 }
@@ -67,7 +68,7 @@ header h1{
     margin: 0;
     color:brown;
     padding-left: 2%;
-    font-size: 40px;
+    font-size: 50px;
 }
 header img{
     flex: 1 12%;
@@ -94,6 +95,7 @@ section a{
     flex: 1 10%;
     height: 100%;
     padding-left: 2%;
+    text-align: end;
 }    
 .about-me p {
    flex: 1  90%;
@@ -193,34 +195,38 @@ color: black;
     flex-direction: row;
     align-items: center;
     margin-top: 20px;
+    justify-content: flex-start;
 }
 .contact-info h2{
-    flex: 1 20%;
+    flex: 1 10%;
     height: 100%;
     padding-left: 2%;
     border-right: 4px solid brown;
-    padding-right: 0;
+    padding-right: 010px;
     margin: 1%;
+    text-align: end;
 }
-.contact-info p {
-    flex: 1  80%;
+.contact-info div {
+    flex: 1  90%;
  }
  /* resume styles */
  .resume{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
  }
  .resume h2{
-    flex: 1 20%;
+    flex: 1 10%;
     height: 100%;
     padding-left: 2%;
     border-right: 4px solid brown;
-    padding-right: 0;
+    padding-right: 10px;
     margin: 1%;
+    text-align: end;
 }
 .resume p {
-    flex: 1  80%;
+    flex: 1  90%;
  }
  .link{
      color: brown;
@@ -245,8 +251,8 @@ nav ul li a:hover{
     border-bottom: 4px solid greenyellow;
 }
 .link:hover{
-    color:  red;
-    border-color: red;
+    color:  greenyellow;
+    border-color: greenyellow;
 }
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -272,6 +278,14 @@ nav ul li a:hover{
         margin: 0 40% 10px  40%;
         }
     }
+    .contact-info h2{
+        font-size: x-large ;
+        max-width: 12%;
+    }
+    .resume h2{
+        font-size: x-large;
+        max-width: 12%;
+    }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
@@ -295,6 +309,7 @@ width: 60%;
       padding: 0 2%;
       margin-left: 0;
       margin-bottom: 10px;
+      width: 100%;
          }
     .about-me img{
             border-left:none;
@@ -314,6 +329,7 @@ width: 60%;
     text-align: center;
     border-bottom: 4px solid brown;
     border-right: none;
+    max-width: none;
       }
       .resume{
           flex-direction: column;
@@ -324,6 +340,7 @@ width: 60%;
         border-bottom: 4px solid brown;
         border-right: none;
         margin: 010px 30% 10px  30%;
+        max-width: none;
       }
       .work h2{
           margin: 0 30% 10px 30%;
