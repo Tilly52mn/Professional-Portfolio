@@ -115,6 +115,7 @@ section a{
     text-align: center;
     border-bottom: 4px solid brown;
     margin: 0 42% 10px  41%;
+    padding-left: 0;
 }
 .first-project{
     width: 95%;
@@ -245,6 +246,7 @@ nav ul li a:hover{
 }
 .link:hover{
     color:  red;
+    border-color: red;
 }
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -282,9 +284,25 @@ nav ul li a:hover{
   nav{
 width: 60%;
   }
+  .about-me{
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .about-me h2{
-      flex: 1 100%
+      flex: 1 100%;
+      border-bottom: 4px solid brown;
+      padding: 0 2%;
+      margin-left: 0;
+      margin-bottom: 10px;
          }
+    .about-me img{
+            border-left:none;
+            padding: 0;
+            margin: 0;
+  }
+  .about-me p{
+      padding: 0% 2%;
   }
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
@@ -310,4 +328,30 @@ width: 60%;
       .work h2{
           margin: 0 30% 10px 30%;
       }
+      .first-project{
+        height: 60px;
     }
+    .project{
+        width: 42%;
+        height: 60px;
+    }
+      nav ul li a{
+        margin-bottom: 20px ;
+    }
+    header nav ul{
+        padding-left: 0;
+    }
+    nav{
+        margin-right: 0;
+    }
+    h2{
+        font-size:large;
+    }
+    p{
+        font-size: medium;
+    }
+    footer{
+        margin-top: 10px;
+    }
+ }
+  }
