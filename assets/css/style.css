@@ -32,7 +32,7 @@ text-align: center;
     border-bottom: 2px solid brown;
 }
 html{
-    background: url(/assets/images/geri-mis-ZaCPb3xIqrg-unsplash.jpg);
+    background: url(../images/geri-mis-ZaCPb3xIqrg-unsplash.jpg);
     /* background-image: linear-gradient(to bottom right, blue,lightblue ); */
     background-size: cover;
     background-attachment: fixed;
@@ -43,7 +43,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/assets/images/geri-mis-ZaCPb3xIqrg-unsplash.jpg);
+    background-image: url(../images/geri-mis-ZaCPb3xIqrg-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: sticky;
@@ -301,7 +301,6 @@ width: 60%;
   .about-me{
       flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   .about-me h2{
       flex: 1 100%;
@@ -310,6 +309,8 @@ width: 60%;
       margin-left: 0;
       margin-bottom: 10px;
       width: 100%;
+      
+    text-align: center;
          }
     .about-me img{
             border-left:none;
@@ -319,6 +320,11 @@ width: 60%;
   .about-me p{
       padding: 0% 2%;
   }
+  .work h2{
+      width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    }
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
       .contact-info{
@@ -342,9 +348,9 @@ width: 60%;
         margin: 010px 30% 10px  30%;
         max-width: none;
       }
-      .work h2{
+      /* .work h2{
           margin: 0 30% 10px 30%;
-      }
+      } */
       .first-project{
         height: 60px;
     }
@@ -360,6 +366,7 @@ width: 60%;
     }
     nav{
         margin-right: 0;
+        max-width: 240px;
     }
     h2{
         font-size:large;
