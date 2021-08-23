@@ -12,3 +12,7 @@ https://tilly52mn.github.io/Professional-Portfolio/
 
 ## Contribution
 Made by Adam Tilly
+
+## snapshot of page
+![webpage top](Capture.png)
+![webpage bottom](Capture2.png)
