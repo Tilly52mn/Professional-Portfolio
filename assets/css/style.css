@@ -137,7 +137,7 @@ section a{
 }
 
 .project-2{
-    background-image: url('../images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg');
+    background-image: url('../images/Trailfinder.PNG');
     background-size: cover;
 }
 .project-3{
@@ -159,7 +159,6 @@ section a{
     font-size: 22px;
     font-weight: bold;
     text-align: center;
-    background-color: rgba(0, 128, 128, .3);
     height: 150px;
     display: flex;
     align-items: flex-end;
